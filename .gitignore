@@ -1,0 +1,22 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.pytest_cache/
+
+# Notebook temporary files
+.ipynb_checkpoints/
+
+# Datasets and training artifacts
+data/
+outputs/
+*.pt
+*.pth
+*.ckpt
+
+# Local settings and secrets
+.env
+.env.*
+!.env.example
+.DS_Store
